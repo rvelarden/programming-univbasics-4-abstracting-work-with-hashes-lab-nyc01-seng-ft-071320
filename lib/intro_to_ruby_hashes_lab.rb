@@ -4,15 +4,11 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-person = {
-  name: "Sam",
-  age: 31
-}
  
-person[:age]
-
-person["work"] 
-
+pets = {"cat" => "Maru"}
+pets["cat"]
+pets["dog"]
+end
 end
 
 def update_counting_hash(hash, key)
