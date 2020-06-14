@@ -11,7 +11,7 @@ person = {
  
 person[:age]
 
- 
+person["work"] 
 
 end
 
