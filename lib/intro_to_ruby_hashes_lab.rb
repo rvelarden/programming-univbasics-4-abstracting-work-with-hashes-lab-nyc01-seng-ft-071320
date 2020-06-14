@@ -1,9 +1,6 @@
 def my_hash_creator(key, value)
  {:key=>"value"}
- person = {
-  : "Sam",
-  age: 31
-}
+
  
 # No :hometown key found
 person[:hometown]
