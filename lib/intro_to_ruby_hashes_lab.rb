@@ -1,9 +1,9 @@
 def my_hash_creator(key, value)
-person = { key: value}
+person = { :key value}
 
  
 
-person[:hometown] = "Brooklyn, NY"
+person[:key] = "Brooklyn, NY"
 end
 
 def read_from_hash(hash, key)
