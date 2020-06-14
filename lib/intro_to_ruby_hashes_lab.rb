@@ -6,7 +6,7 @@ end
 def read_from_hash(hash, key)
 pets = {"cat" => "Maru"}
 
-pets["cat"]
+pets["dog"]
 end
 
 def update_counting_hash(hash, key)
