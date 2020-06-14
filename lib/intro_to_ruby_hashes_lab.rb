@@ -4,7 +4,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-key = :name
+user_info = {:name => "Ada", :email => "ada.lovelace@famous_computer_inventors.com"}
 end
 
 def update_counting_hash(hash, key)
