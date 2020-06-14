@@ -1,6 +1,6 @@
 def my_hash_creator(key, value)
   price = {
-   key: value 
+   :key=> value 
   }
 end
 
