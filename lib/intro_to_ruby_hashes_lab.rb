@@ -1,13 +1,6 @@
 def my_hash_creator(key, value)
  {:key=>"value"}
 
- 
-# No :hometown key found
-person[:hometown]
-#=> nil
- 
-# Because :hometown was not present, Ruby creates the key value pair here
-person[:hometown] = "Brooklyn, NY"
 end
 
 def read_from_hash(hash, key)
