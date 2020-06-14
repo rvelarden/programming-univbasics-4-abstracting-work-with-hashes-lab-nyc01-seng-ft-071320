@@ -6,7 +6,7 @@ end
 def read_from_hash(hash, key)
  
 key["hash"]
-key["hash"]
+key["dog"]
 
 end
 
