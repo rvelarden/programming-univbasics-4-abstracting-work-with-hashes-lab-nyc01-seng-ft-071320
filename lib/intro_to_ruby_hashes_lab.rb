@@ -1,7 +1,9 @@
 def my_hash_creator(key, value)
- {
-   "key"=> value 
-  }
+if key["top hat"]
+  shipping_manifest[value] += 1
+else
+  puts "Key not found!"
+end
 end
 
 def read_from_hash(hash, key)
