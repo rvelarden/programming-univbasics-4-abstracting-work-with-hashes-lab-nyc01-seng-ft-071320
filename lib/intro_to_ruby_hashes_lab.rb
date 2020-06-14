@@ -5,7 +5,7 @@ end
 
 def read_from_hash(hash, key)
 pets = {"cat" => "Maru"}
-#=> {"cat"=>"Maru", "dog"=>"Pluto"}
+#=> {"cat"=>"Maru"}
  
 pets["cat"]
 end
