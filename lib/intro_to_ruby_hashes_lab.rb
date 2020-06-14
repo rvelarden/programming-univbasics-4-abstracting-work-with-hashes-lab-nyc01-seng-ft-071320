@@ -4,7 +4,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-pets = {"cat" => "Maru", "dog" => "Pluto"}
+pets = {"cat" => "Maru"}
 #=> {"cat"=>"Maru", "dog"=>"Pluto"}
  
 pets["cat"]
