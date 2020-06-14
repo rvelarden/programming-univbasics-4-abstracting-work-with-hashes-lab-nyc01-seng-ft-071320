@@ -12,7 +12,7 @@ person = {
 person[:age]
 
  
-person[:age] = 32
+
 end
 
 def update_counting_hash(hash, key)
