@@ -5,7 +5,7 @@ end
 
 def read_from_hash(hash, key)
  prices = {
-  :name => 'Grace Hopper'}
+  :key => 'hash'}
 
 end
 
