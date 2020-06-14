@@ -7,7 +7,7 @@ def read_from_hash(hash, key)
  
 key["hash"]
 key["hash"]
-end
+
 end
 
 def update_counting_hash(hash, key)
