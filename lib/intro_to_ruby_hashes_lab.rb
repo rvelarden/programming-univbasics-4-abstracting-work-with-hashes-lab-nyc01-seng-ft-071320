@@ -4,8 +4,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-user_info = {:name => "Ada", :email => "ada.lovelace@famous_computer_inventors.com"}
-user_info[key]
+pets = {"cat" => "Maru", "dog" => "Pluto"}
+#=> {"cat"=>"Maru", "dog"=>"Pluto"}
+ 
+pets["cat"]
 end
 
 def update_counting_hash(hash, key)
