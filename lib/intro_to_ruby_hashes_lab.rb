@@ -5,6 +5,7 @@ end
 
 def read_from_hash(hash, key)
 user_info = {:name => "Ada", :email => "ada.lovelace@famous_computer_inventors.com"}
+user_info[key]
 end
 
 def update_counting_hash(hash, key)
